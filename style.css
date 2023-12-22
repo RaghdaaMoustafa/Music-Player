@@ -16,7 +16,7 @@ body {
       padding: 30px;
       border-radius: 20px;
       background-color: #ddd;
-      box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+      box-shadow: rgb(156, 9, 179), rgb(156, 9, 179);
     }
     
     .details {
@@ -34,9 +34,9 @@ body {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    -moz-box-shadow: 0px 6px 5px black;
-    -webkit-box-shadow: 0px 6px 5px black;
-    box-shadow: 0px 6px 5px black;
+    -moz-box-shadow: 0px 6px 5px rgb(156, 9, 179);
+    -webkit-box-shadow: 0px 6px 5px rgb(156, 9, 179);
+    box-shadow: 0px 6px 5px rgb(156, 9, 179);
     -moz-border-radius:190px;
     -webkit-border-radius:190px;
     border-radius:190px;
@@ -62,7 +62,7 @@ body {
     margin-bottom: 30px;
     }
     .active{
-        color: black;
+        color: rgb(156, 9, 179);
     }
     
     .repeat-track,
@@ -94,7 +94,7 @@ body {
     -moz-appearance: none;
     appearance: none;
     height: 5px;
-    background: #83A9FF;
+    background: #0459e2;
     -webkit-transition: .2s;
     transition: opacity .2s;
     }
@@ -107,7 +107,7 @@ body {
     width: 15px;
     height: 15px;
     background: white;
-    border: 3px solid #3774FF;
+    border: 3px solid #0459e2;
     cursor: grab;
     border-radius: 100%;
     }
@@ -144,7 +144,7 @@ body {
     cursor: pointer;
     }
     .randomActive{
-        color: black;
+        color:rgb(156, 9, 179);
     }
     .rotate {
         animation: rotation 8s infinite linear;
@@ -174,11 +174,11 @@ body {
       @keyframes animate {
         50% {
           height: 20%;
-          background: #4286f4;
+          background:#0459e2;
         }
     
         100% {
-          background: #4286f4;
+          background: #0459e2;
           height: 100%;
         }
       }
